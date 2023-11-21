@@ -14,7 +14,7 @@ import {
 } from "./containers/public/Index";
 import { Route, Routes } from "react-router-dom";
 import path from "./ultis/Path";
-import * as actions from "./store/actions";
+import * as actions from "./store/actions/Index";
 import { useEffect } from "react";
 import { ToastContainer, toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
